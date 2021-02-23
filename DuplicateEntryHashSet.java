@@ -2,10 +2,12 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-public class MergeUserDirectory {
+public class DuplicateEntryHashSet {
 
     public static void main(String[] args){
 
+        //MergeUserDirectory problem
+        
         HashSet<String> u1EmailList = new HashSet<>();
         u1EmailList.add("j1@j1.com");
         u1EmailList.add("j2@j2.com");
